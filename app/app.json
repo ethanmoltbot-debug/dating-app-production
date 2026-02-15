@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "Wifey Dating App with Admin Dashboard",
+    "slug": "ebfa1886-4681-4a98-ab82-c390b0927406",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "wifeydatingappwithadmindashboard.ebfa1886-4681-4a98-ab82-c390b0927406",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.createinc.ebfa188646814a98ab82c390b0927406",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We need access to your camera to take photos and videos.",
+        "NSContactsUsageDescription": "We need access to your contacts to use contacts.",
+        "NSCalendarsUsageDescription": "This app does not use your calendar.",
+        "NSRemindersUsageDescription": "This app does not use your reminders.",
+        "NSMicrophoneUsageDescription": "We need access to your microphone to record audio.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library to select photos and videos.",
+        "NSLocationAlwaysUsageDescription": "We need access to your location to help you find your way.",
+        "NSPhotoLibraryAddUsageDescription": "We need access to your photo library to save photos and videos.",
+        "NSLocationWhenInUseUsageDescription": "We need access to your location to help you find your way.",
+        "NSSpeechRecognitionUsageDescription": "This app does not use your speech recognition.",
+        "NSCalendarsFullAccessUsageDescription": "This app does not use your calendar.",
+        "NSRemindersFullAccessUsageDescription": "This app does not use your reminders.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We need access to your location to help you find your way."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "cebbe5bd-7d74-457f-9c0a-11623e172104"
+      }
+    },
+    "owner": "create-inc",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cebbe5bd-7d74-457f-9c0a-11623e172104"
+    }
+  }
+}
